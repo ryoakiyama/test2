@@ -1,0 +1,59 @@
+
+body{
+	background-image:url("back3.jpg");
+	margin:0 auto;
+	text-align:center;
+    font-family:Gulim;
+
+}
+
+#header{
+	height:70px;
+}
+
+#pr{
+
+}
+
+.btn{
+	margin-bottom:10px;
+	font-size:100px;
+	background-color:white;
+
+}
+
+table {
+text-align:center;
+margin:0 auto;
+}
+
+#top{
+	background-color:white;
+	font-weight:700;
+	font-size:20px;
+
+	line-height:40px;
+}
+
+#text-center{
+	margin-top:30px;
+}
+
+input:hover{
+	background-color:midnightblue;
+	transition:0.7s;
+	color:white;
+}
+
+b{
+	color:red;
+}
+
+
+.select:hover{
+	background-color:midnightblue;
+	transition:0.7s;
+	color:white;
+}
+
+

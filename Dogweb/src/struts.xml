@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+<!-- Strutsの詳細設定 -->
+<struts>
+
+<constant name="struts.devMode" value="true" />
+<package name="com.internousdev.dogweb.action" extends="struts-default">
+
+<!-- GoHomeAction -->
+<action name="UCCAction" class="com.internousdev.dogweb.action.UCCAction" method="execute">
+<result name="success">uCC.jsp</result>
+<result name="error">error.jsp</result>
+</action>
+
+<action name="HomeAction" class="com.internousdev.dogweb.action.HomeAction" method="execute">
+<result name="success">index.jsp</result>
+</action>
+
+
+<action name="UCSAction" class="com.internousdev.dogweb.action.UCSAction" method="execute">
+<result name="success">ucs.jsp</result>
+</action>
+
+<action name="DOGAction" class="com.internousdev.dogweb.action.DOGAction" method="execute">
+<result name="success">dog.jsp</result>
+</action>
+
+<action name="LoginAction" class="com.internousdev.dogweb.action.LoginAction" method="execute">
+<result name="success">index.jsp</result>
+<result name="error">home.jsp</result>
+</action>
+
+
+
+</package>
+</struts>
